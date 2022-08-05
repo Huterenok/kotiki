@@ -30,8 +30,20 @@
 }
 .active{
 	background-color: #1E88E5;
-	padding: 23px 15px;
 }
-@media screen and (max-width:600px) {
-	
+@media screen and (max-width:450px) {
+	.list__container {
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width:391px) {
+	.list__container a {
+		padding: 22px 13px;
+	}
+}
+@media screen and (max-width:383px) {
+	.list__container a {
+		padding: 12px 13px;
+	}
 }

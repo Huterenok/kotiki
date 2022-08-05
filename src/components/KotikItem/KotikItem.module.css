@@ -115,7 +115,30 @@
 		background: fixed;
 	}
 }
-
+@media screen and (max-width:600px) {
+	.kotik{
+		width: 140px;
+		height:140px;
+		margin: 15px 15px;
+		padding: 12px;
+	}
+	.heart{
+		width: 25px;
+		height: 25px;
+		bottom: 40px;
+		right: 40px;
+	}
+	.heart:hover{
+		background-image: url(./img/fullHeart.png);
+		background: fixed;
+	}
+}
+@media screen and (max-width:387px) {
+	.kotik{
+		width: 115px;
+		height: 115px;
+	}
+}
 @keyframes item-appearance{
 	0%{
 		scale: 0;
