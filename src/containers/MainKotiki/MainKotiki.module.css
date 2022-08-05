@@ -1,0 +1,31 @@
+.container{
+	text-align: center;
+}
+
+.wrapper{
+	margin: 20px auto;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	animation: container-appearance 4s forwards;
+}
+.loader{
+	font-size: 18px;
+	font-family: 'roboto';
+	color: #000;
+	
+}
+
+@keyframes container-appearance{
+	0%{
+		opacity: 0;
+		transform: translateY(700px);
+	}
+	80%{
+		opacity: 0;
+	}	
+	100%{
+		opacity: 1;
+		transform: translateY(0);
+	}
+}

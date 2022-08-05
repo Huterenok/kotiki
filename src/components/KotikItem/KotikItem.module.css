@@ -1,0 +1,113 @@
+
+.container{
+	position: relative;
+	transition:all .4s ease-in-out;
+	border-radius: 10px;
+	animation: item-appearance 2s forwards ;
+}
+.kotik{
+	display: block;
+	width: 355px;
+	height: 355px;
+	margin: 40px 30px;
+	padding: 16px;
+	transition: all .4s ease-in-out;
+	border-radius: 10px;
+}
+.heart{
+	display: none;
+	position: absolute;
+	bottom: 80px;
+	right:70px;
+	transition: all .4s ease-in-out ;
+}
+.container:hover .kotik{
+	box-shadow: 0 16px 24px 2px rgba(0,0,0,0.5),
+	0 6px 30px 5px rgba(0,0,0,0.1),
+	0 8px 10px -5px rgba(0,0,0,0.2);
+}
+.container:hover .heart{
+	display: block;
+}
+.heart:hover{
+	background-image: url(./img/fullHeart.png);
+	background: fixed;
+}
+
+@media screen and (max-width:1921px) {
+	.kotik{
+		width: 280px;
+		height:280px;
+		margin: 30px 30px;
+		padding: 14px;
+	}
+	.heart{
+		bottom: 70px;
+	}
+}
+@media screen and (max-width:1500px) {
+	.kotik{
+		width: 250px;
+		height:250px;
+		margin: 30px 30px;
+		padding: 14px;
+	}
+	.heart{
+		bottom: 60px;
+		right: 60px;
+	}
+}
+@media screen and (max-width:1300px) {
+	.kotik{
+		width: 220px;
+		height:220px;
+		margin: 30px 30px;
+		padding: 14px;
+	}
+}
+@media screen and (max-width:930px) {
+	.kotik{
+		width: 180px;
+		height:180px;
+		margin: 20px 20px;
+		padding: 14px;
+	}
+	.heart{
+		width: 30px;
+		height: 30px;
+		bottom: 50px;
+		right: 50px;
+	}
+}
+@media screen and (max-width:750px) {
+	.kotik{
+		width: 140px;
+		height:140px;
+		margin: 15px 15px;
+		padding: 12px;
+	}
+	.heart{
+		width: 25px;
+		height: 25px;
+		bottom: 40px;
+		right: 40px;
+	}
+	.heart:hover{
+		background-image: url(./img/fullHeart.png);
+		background: fixed;
+	}
+}
+
+@keyframes item-appearance{
+	0%{
+		scale: 0;
+		opacity: 0;
+	}
+	50%{
+		opacity: 0.5;
+	}
+	100%{
+		scale: 1;
+		opacity: 1;
+	}
+}
