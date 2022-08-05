@@ -6,7 +6,4 @@ const store = configureStore({
 		favorites : favoriteSlice
 	}
 })
-store.subscribe(()=>{
-	setLocalStorage('store',store.getState().favorites)
-})
 export default store

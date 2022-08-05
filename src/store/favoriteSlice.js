@@ -4,7 +4,7 @@ import { getLocalStorage } from "../utils/localStorage";
 
 const favoriteSlice = createSlice({
 	name:'favorites',
-	initialState:getLocalStorage('store'),
+	initialState:[],
 	reducers :{
 		addToFavorite : (state,action) => {
 			state.push({
