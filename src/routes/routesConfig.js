@@ -3,7 +3,7 @@ import MainKotiki from "../containers/MainKotiki/MainKotiki"
 
 const routesConfig = [
 	{
-		path:'',
+		path:'/kotiki',
 		element:<MainKotiki></MainKotiki>
 	},
 	{

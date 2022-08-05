@@ -9,7 +9,7 @@ const Header = () => {
 	return (
 		<div className={styles.container}>
 			<ul className={styles.list__container}>
-				<li><NavLink className={all && styles.active} onClick={() => {setAll(true);setFavorite(false)}}  to=''>Все котики</NavLink></li>
+				<li><NavLink className={all && styles.active} onClick={() => {setAll(true);setFavorite(false)}}  to='/kotiki'>Все котики</NavLink></li>
 				<li><NavLink className={favorite && styles.active} onClick={() => {setFavorite(true);setAll(false)}}  to='/favorites'>Любимые котики</NavLink></li>
 			</ul>
 		</div>
