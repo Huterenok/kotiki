@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/kotiki/static/css/main.bb938d33.css",
-    "main.js": "/kotiki/static/js/main.1b526462.js",
+    "main.js": "/kotiki/static/js/main.338d35cc.js",
     "static/media/loader.svg": "/kotiki/static/media/loader.f359c39c6ff9ad0358717886753080f1.svg",
     "index.html": "/kotiki/index.html",
     "main.bb938d33.css.map": "/kotiki/static/css/main.bb938d33.css.map",
-    "main.1b526462.js.map": "/kotiki/static/js/main.1b526462.js.map"
+    "main.338d35cc.js.map": "/kotiki/static/js/main.338d35cc.js.map"
   },
   "entrypoints": [
     "static/css/main.bb938d33.css",
-    "static/js/main.1b526462.js"
+    "static/js/main.338d35cc.js"
   ]
 }
