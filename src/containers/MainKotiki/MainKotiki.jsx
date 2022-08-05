@@ -41,6 +41,9 @@ const MainKotiki = () => {
 		}
 		setTimeout(()=>{setLoading(false)},2000)			
 	},[loading])
+	useEffect(() => {
+		getApiResource(`https://api.thecatapi.com/v1/images/search?limit=15&size=small`,newHeaders)
+	},[])
 
 
 	useEffect(() => {
